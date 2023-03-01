@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+}
+.car{
+    background-image: linear-gradient(to right,blue,pink);
+    width: 150px;
+   color: white;
+    border-radius: 20px;
+    font-size: 35px;
+    padding: 10px;
+    margin-right:10px ;
+}
+.heading{
+    font-size: 30px;
+    padding: 20px;
+
+}
+.nav{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blueviolet;
+    margin: 10px;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+.nav-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nna{
+    color: blueviolet;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+}
+.bg-container{
+ background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+ height: 100vh;
+ background-size: cover;
+ border-radius: 20px;
+ color: white;
+}
+.second-container{
+    margin: 0px;
+    padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading2{
+   margin-bottom: 20px;
+    
+}
+.paragraph{
+    font-size: 20px;
+    
+}
+.buy{
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: greenyellow;
+    border-radius: 7px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.know{
+    background-color: transparent;
+    border: 2px solid white;
+    color: greenyellow;
+    border-radius: 7px;
+    height: 40px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.buttons{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buy:active {
+    background-color:rgb(4, 50, 255);
+    box-shadow: 0 5px #666;
+    color: white;
+    transform: translateY(4px);
+  }
+  .know:active {
+    color: white;
+    background-color: rgb(15, 202, 53);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .linkden{
+   margin: 20px;
+    color: white;
+ width: 50px;
+  }
